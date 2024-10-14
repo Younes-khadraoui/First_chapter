@@ -6,7 +6,6 @@
 
 # Development
 node_modules
-.env
 *.local
 
 # Cache
@@ -40,3 +39,8 @@ lerna-debug.log*
 # Yarn
 .yarn/*
 !.yarn/releases
+
+.env
+
+# Cloudflare
+functions/**/*.js
