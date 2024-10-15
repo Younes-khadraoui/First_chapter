@@ -52,7 +52,7 @@ export default component$(() => {
                 <img
                   class="h-full cursor-pointer"
                   src={
-                    book.volumeInfo.imageLinks.thumbnail?.replace(
+                    book.volumeInfo.imageLinks?.thumbnail?.replace(
                       /^http:\/\//i,
                       "https://"
                     ) || placeholder
